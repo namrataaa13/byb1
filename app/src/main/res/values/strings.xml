@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookYourBookSigninup</string>
+
+    <string name="SignUp"><font color="black"><u>Don\'t have an account?</u></font>
+    <font color="blue"><u>Sign up</u></font></string>
+
+    <string name="SignIn"><font color="black"><u>Already have an account?</u></font>
+    <font color="blue"><u>Sign in</u></font></string>
+
+    <string name="menu_open">open</string>
+    <string name="menu_close">close</string>
+
+    <string name="forpass"><font color="black"><u>Forgot password?\n</u></font>
+    <font color="blue"><u>reset</u></font></string>
+</resources>
