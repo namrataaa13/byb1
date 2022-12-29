@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BookYourBookSigninup"
 include ':app'
+include ':mylibrary'
