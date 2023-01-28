@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_category.xml" value="0.20520833333333333" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_category_insert.xml" value="0.20520833333333333" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_sign_in.xml" value="0.20520833333333333" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_sign_up.xml" value="0.20520833333333333" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/categorydisplayformat.xml" value="0.20520833333333333" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/profile_email.xml" value="0.1" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/profile_image.xml" value="0.1" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/mipmap-mdpi/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/DOWNLOADS/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1315" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
@@ -17,10 +27,20 @@
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/drawable/spinner_style.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/drawable/textviewbg.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/font/aclonica.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/font/baloo.xml" value="0.23055555555555557" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_forgetpass.xml" value="0.22" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_insert_data.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_search_main.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_single_book_detail_on_click.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/activity_view_data.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/dialogcontent.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/header_menu.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/ourbooksrecyview.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/layout/searchallbooksrecview.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ACER/Downloads/BookYourBookSigninup/BookYourBookSigninup/app/src/main/res/menu/main_menu.xml" value="0.18958333333333333" />
       </map>
     </option>
   </component>

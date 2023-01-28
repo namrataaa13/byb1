@@ -6,28 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/searchLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Logout"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.55"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.866" />
-
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="173dp"
-            android:layout_height="171dp"
-            android:layout_marginStart="80dp"
+            android:layout_width="180dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toTopOf="parent"
@@ -35,32 +24,28 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="131dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="64dp"
-            android:text="Welcome To  "
-            android:textColor="#6E9DC3"
-            android:textSize="16sp"
+            android:layout_width="163dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="52dp"
+
+            android:text="Welcome To,"
+            android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="192dp"
-            android:layout_height="66dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="28dp"
+            android:layout_width="193dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
             android:background="@drawable/textviewbg"
-            android:text="Book Your Book"
-            android:textColor="#2196F3"
+
+            android:text="Book Your Book "
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
-            app:layout_constraintHorizontal_bias="0.472"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.113" />
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -95,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/catMain"
                         android:layout_marginTop="4dp"
-                        android:fontFamily="@font/aclonica"
+
                         android:gravity="center"
                         android:text="Category" />
                 </RelativeLayout>
@@ -117,6 +102,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/searchMain"
                         android:layout_marginTop="4dp"
+                        android:fontFamily="@font/aclonica"
                         android:gravity="center"
                         android:text="Search Books" />
 
@@ -210,6 +196,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navigationView"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/main_menu"
         android:fitsSystemWindows="true"
         android:layout_gravity="start" >
 

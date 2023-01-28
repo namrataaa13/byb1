@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".categoryInsert">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/categoryNameLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="312dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="Category Name"
+        android:inputType="textPersonName"
+        app:helperText="Required*"
+        app:helperTextTextColor="#EA1515"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/categoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/catInsertBtn"
+        android:layout_width="119dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#68C56A"
+        android:text="Insert"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".insertData"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/bookPic"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Books Name"
+        android:inputType="textPersonName"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Book id"
+        android:inputType="number"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/bookCategory"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/spinner_style"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Book Category ID"
+            android:inputType="text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bookCategoryid"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Pincode"
+            android:inputType="number"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bookPincode"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bookEmail"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textviewbg"
+        android:hint="Enter Email Id"
+        android:inputType="textEmailAddress"
+        android:minHeight="45dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:textSize="19dp"
+        android:layout_marginTop="5dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter City Name"
+        android:inputType="text"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/bookOptionsBar"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/spinner_style"/>
+
+    <Button
+        android:id="@+id/bookUploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Upload"
+        app:cornerRadius="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"/>
+    </LinearLayout>
+</ScrollView>
