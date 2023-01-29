@@ -51,6 +51,7 @@ public class categoryInsert extends AppCompatActivity {
                                 mProgressDialog.dismiss();
                                 Toast.makeText(getApplicationContext(), "Category Uploaded Successfully!!", Toast.LENGTH_LONG).show();
                                 categoryName.setText("");
+                                finish();
                             } else {
                                 mProgressDialog.dismiss();
                                 Toast.makeText(getApplicationContext(), ":(" + response.toString(), Toast.LENGTH_LONG).show();
